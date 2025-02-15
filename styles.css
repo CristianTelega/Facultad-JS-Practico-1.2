@@ -1,0 +1,122 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    width: 100%;
+    box-sizing: border-box;
+    
+
+}
+
+body{
+background-color: rgb(180, 173, 173);
+}
+
+.wrapper {
+    width: 100%;
+    margin: 0 auto;
+
+}
+
+
+header {
+    background-color: #267365;
+    width: 100%;
+    height: 90px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+header h1{
+    text-align: center;
+    color: white;
+    line-height: 82px;
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-size: 90px;
+    text-shadow: 2px 2px 4px #000000;
+
+
+
+}
+
+
+
+nav{
+    text-align: center;
+    background-color: #F29F05;
+    height: 60px;
+}
+
+nav ul li{
+
+    line-height: 60px ;
+    display: inline;
+    padding: 30px;
+}
+
+nav ul li a{
+
+text-decoration: none;
+font-family: Verdana;
+font-size: 20px;
+color: white;
+text-shadow: 2px 2px 5px black;
+}
+
+nav ul li a:hover{
+color:black;
+}
+
+
+
+
+section{
+
+width: 78%;
+height: 550px;
+background-color: #F28705;
+color:black;
+
+
+text-align: center;
+line-height:  50px;
+
+float: left;
+
+}
+
+aside{
+
+    background-color: #F2CB05;
+    width: 22%;
+    height: 550px;
+    float: left;
+
+}
+
+
+footer{
+background-color: #F23030;
+height: 40px;
+text-align: center;
+color: black;
+line-height: 40px;
+
+float: inline-end;
+
+}
+
+section{
+
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-size: 22px;
+
+}
+
+article{
+
+text-align: left;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+font-size: 35px;
+
+}
